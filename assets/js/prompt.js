@@ -96,3 +96,12 @@ function personagem(){
     )
 
 }
+
+function quadrado(){
+    let lado1=parseFloat(prompt("digite a altura do quadrado"));
+    let lado2=parseFloat(prompt("digite o lado do quadrado"));
+
+    let area=lado1*lado2
+
+    alert("Area: " + area +" m²")
+}
